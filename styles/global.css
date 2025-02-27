@@ -39,3 +39,19 @@ a:hover {
 h1, h2, h3 {
     font: inherit
 }
+
+/* Criando uma Classe Utilitária. Princípio: Utility First */
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+    align-items: space-between;
+}
