@@ -27,6 +27,10 @@ body {
     background-color: var(--bg-color);
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -36,22 +40,19 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-h1, h2, h3 {
-    font: inherit
+h1,
+h2,
+h3 {
+    font: inherit;
 }
 
-/* Criando uma Classe Utilitária. Princípio: Utility First */
+img {
+    max-width: 100%;
+}
+
 .container {
     max-width: 1280px;
     padding-inline: 32px;
-    margin: auto;
+    margin-inline: auto;
 }
 
-.grid {
-    display: grid;
-}
-
-.grid-flow-col {
-    grid-auto-flow: column;
-    align-items: space-between;
-}
