@@ -9,6 +9,7 @@
         border-radius: 4px;
         overflow: hidden;
         position: relative;
+        
         /* card::before */
         &::before{
             content: "";
@@ -20,6 +21,17 @@
                 transparent 0%,
                 #020617 100%
             );
+        }
+
+        /* Título e Conteúdo da Noticia acima do Card. */
+        figcaption {
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+        }
+
+        h2 {
+            margin-top: 8px;
         }
     }
 }
