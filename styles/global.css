@@ -31,6 +31,10 @@ header {
     margin-bottom: 40px;
 }
 
+main {
+    gap: 80px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
